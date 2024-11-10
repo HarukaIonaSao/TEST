@@ -1,5 +1,5 @@
 body {
-    background-image: url('/src/images/bg1.png');
+    background-image: url('./src/images/bg1.png');
     background-size: contain; 
     color: var(--font-color);
     font-family: var(--font-base);
