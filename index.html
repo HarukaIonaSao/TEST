@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/eren.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/cards.css">
+    <link rel="stylesheet" href="./src/css/scroll.css">
+    <title>Titãs Primordiais</title>
+</head>
+<body>
+    
+  <main>
+    <div class="titans"> 
+      <div class="cards-titan">
+        </div> 
+      <nav class="list">
+        <ul id="lista-titans">
+        </ul>
+        
+      </nav>
+      
+    </div>
+  </main>
+  <script src="./src/js/script.js"></script>
+
+  <!-- VLibras -->
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+      </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+  </script>
+</body>
+</html>
