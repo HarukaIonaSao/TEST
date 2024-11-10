@@ -1,6 +1,6 @@
 body {
-    background-image: url(/src/images/bg1.png);
-    background-size: contain; /* Para telas maiores */
+    background-image: url('/src/images/bg1.png');
+    background-size: contain; 
     color: var(--font-color);
     font-family: var(--font-base);
     font-size: 16px; /* Tamanho padrão */
